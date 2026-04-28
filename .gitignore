@@ -45,9 +45,20 @@ coverage/
 # TypeScript
 *.tsbuildinfo
 
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
 # Misc
 .cache/
 .temp/
 
 # Claude Code local settings
 .claude/
+
+.vercel
+.env*.local
