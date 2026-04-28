@@ -48,3 +48,6 @@ coverage/
 # Misc
 .cache/
 .temp/
+
+# Claude Code local settings
+.claude/
