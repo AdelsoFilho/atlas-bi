@@ -1,10 +1,10 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import { RiskDashboard } from './components/RiskDashboard'
+import { CreditDashboard } from './components/CreditDashboard'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <RiskDashboard />
+    <CreditDashboard />
   </StrictMode>,
 )
